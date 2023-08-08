@@ -31,10 +31,10 @@ We propose Edge-MAE to leverage to take advantage of both paired and unpaired da
 
 - ### Pre-training
 
-  To pre-train our Edge-MAE with single GPU, run `single_gpu.py`. \
-  To pre-train our Edge-MAE multiple GPUs (with torch.nn.dataparallel), run `dp.py`.\
-  To pre-train our Edge-MAE multiple GPUs (with DistributedDataParallel), run `ddp.py`.\
-  To pre-train our Edge-MAE multiple GPUs (with Huggingface Accelerate), run `accelerate launch --config_file accelerate_config.json ac.py`.
+  - To pre-train our Edge-MAE with single GPU, run `single_gpu.py`. \
+  - To pre-train our Edge-MAE multiple GPUs (with torch.nn.dataparallel), run `dp.py`.\
+  - To pre-train our Edge-MAE multiple GPUs (with DistributedDataParallel), run `ddp.py`.\
+  - To pre-train our Edge-MAE multiple GPUs (with Huggingface Accelerate), run `accelerate launch --config_file accelerate_config.json ac.py`.
 
 ## 3. Citation
 
