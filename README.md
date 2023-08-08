@@ -8,7 +8,7 @@ We propose Edge-MAE to leverage to take advantage of both paired and unpaired da
 <p align="center">
     <img src="imgs/framework.png"/> <br />
     <em> 
-    Figure 2. An overview of the proposed MT-Net.
+    Figure 2. An overview of the proposed framework.
     </em>
 </p>
 
